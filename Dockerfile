@@ -7,11 +7,11 @@ RUN apt install git curl python3-pip ffmpeg -y
 
 # Updating Pip Packages
 RUN pip3 install -U pip
-
-# Installing NodeJS
-RUN apt install -y nodejs
-RUN npm i -g npm
-
+# Installing NodeJS 
+ RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - && \ 
+     apt install -y nodejs && \ 
+     npm i -g npm 
+ 
 # Copying Requirements
 # Installing Requirements
 COPY requirements.txt .
