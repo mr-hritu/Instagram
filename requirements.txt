@@ -3,5 +3,6 @@ tgcrypto
 instaloader
 pyromod
 pytz
+config
 get-video-properties
 ffmpeg-python
