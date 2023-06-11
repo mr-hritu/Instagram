@@ -23,17 +23,19 @@ from config import *
 
 bot = Client(
     "InstaSessibon",
-    bot_token=config.BOT_TOKEN,
-    api_id=config.API_ID,
-    api_hash=config.API_HASH,
+    bot_token="6130457410:AAG8jDlWwyFQv1-u8XYnpDhtXaliPo3YrEY",
+    api_id="29616312",
+    api_hash="dd1a05ab4c47a5a037cc067cf4bded27",
     workers=50,
     instagram=dict(root="instagram")
     )
 
-
+USER="ythpot"
+STATUS = set(int(x) for x in (S).split()) 
+     L=Instaloader() 
 async def main():
     async with bot:
-        await bot.download_media(Config.INSTA_SESSIONFILE_ID, file_name=f"./{Config.USER}")
+        await bot.download_media("BQACAgUAAxkDAANHZH2MrtkaMgm3ur7fs-KygER5TcgAAl4JAAIcJfFXk5_gYume6xgeBA", file_name=f"./{"ythpot"}")
         Config.L.load_session_from_file(USER, filename=f"./{USER}")
         STATUS.add(1)
 
