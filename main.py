@@ -18,7 +18,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 from pyrogram.raw import functions, types
 from pyrogram import Client, idle
 from pyromod import listen
-from config import Config
+from config import *
 STATUS=Config.STATUS
 
 USER=Config.USER
