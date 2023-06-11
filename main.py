@@ -34,7 +34,7 @@ USER="ythpot"
 STATUS = set(int(x) for x in (S).split())
 async def main():
     async with bot:
-        await bot.download_media("BQACAgUAAxkDAANHZH2MrtkaMgm3ur7fs-KygER5TcgAAl4JAAIcJfFXk5_gYume6xgeBA", file_name=f"./{"ythpot"}")
+        await bot.download_media("BQACAgUAAxkDAANHZH2MrtkaMgm3ur7fs-KygER5TcgAAl4JAAIcJfFXk5_gYume6xgeBA", file_name=f"./"ythpot"")
         Config.L.load_session_from_file(USER, filename=f"./{USER}")
         STATUS.add(1)
 
