@@ -18,12 +18,12 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 import os
 from instaloader import Instaloader
 class Config:
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
-    USER = os.environ.get("INSTAGRAM_USERNAME", "")
-    OWNER = os.environ.get("OWNER_ID", "")
-    INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", None)
+    API_ID = int(os.environ.get("API_ID", "29616312"))
+    API_HASH = os.environ.get("API_HASH", "dd1a05ab4c47a5a037cc067cf4bded27")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6130457410:AAG8jDlWwyFQv1-u8XYnpDhtXaliPo3YrEY") 
+    USER = os.environ.get("INSTAGRAM_USERNAME", "ythpot")
+    OWNER = os.environ.get("OWNER_ID", "6262157003")
+    INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", "BQACAgUAAxkDAANHZH2MrtkaMgm3ur7fs-KygER5TcgAAl4JAAIcJfFXk5_gYume6xgeBA")
     S = "0"
     STATUS = set(int(x) for x in (S).split())
     L=Instaloader()
