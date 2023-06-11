@@ -19,9 +19,8 @@ COPY requirements.txt /requirements.txt
 # Installing Requirements
 RUN cd /
 RUN pip3 install -U -r requirements.txt
-RUN mkdir /Instagram
-WORKDIR /Instagram
-COPY start.sh /start.sh
+WORKDIR .
+COPY start.sh .
 
 # Running Instagram
 CMD ["/bin/bash", "/start.sh"]
