@@ -22,9 +22,9 @@ from config import *
 
 bot = Client(
     "InstaSessibon",
-    bot_token=Config.BOT_TOKEN,
-    api_id=Config.API_ID,
-    api_hash=Config.API_HASH,
+    bot_token=config.BOT_TOKEN,
+    api_id=config.API_ID,
+    api_hash=config.API_HASH,
     workers=50,
     instagram=dict(root="instagram")
     )
