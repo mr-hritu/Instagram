@@ -15,6 +15,8 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
 
 # Copying Requirements
 # Installing Requirements
+COPY requirements.txt .
+RUN cd .
 RUN pip3 install -U -r requirements.txt
 # Running Instagram
 CMD ["/bin/bash", "/start.sh"]
