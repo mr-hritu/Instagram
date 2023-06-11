@@ -19,4 +19,4 @@ COPY requirements.txt .
 RUN cd .
 RUN pip3 install -U -r requirements.txt
 # Running Instagram
-CMD ["/bin/bash", "/start.sh"]
+CMD ["python3", "main.py"]
