@@ -20,7 +20,6 @@ from pyrogram import Client, idle
 from pyromod import listen
 from config import *
 
-USER=Config.USER
 bot = Client(
     "InstaSessibon",
     bot_token=Config.BOT_TOKEN,
